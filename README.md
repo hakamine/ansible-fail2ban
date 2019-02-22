@@ -1,7 +1,5 @@
 # fail2ban
 
-[![Build Status](https://travis-ci.org/Oefenweb/ansible-fail2ban.svg?branch=master)](https://travis-ci.org/Oefenweb/ansible-fail2ban) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-fail2ban-blue.svg)](https://galaxy.ansible.com/Oefenweb/fail2ban)
-
 Set up fail2ban in Debian-like systems.
 
 ## Requirements
@@ -95,8 +93,4 @@ MIT
 
 ## Author Information
 
-Mischa ter Smitten (based on work of [ANXS](https://github.com/ANXS))
-
-## Feedback, bug-reports, requests, ...
-
-Are [welcome](https://github.com/Oefenweb/ansible-fail2ban/issues)!
+Artefactual Systems (based on work from Mischa ter Smitten, [ANXS](https://github.com/ANXS))
