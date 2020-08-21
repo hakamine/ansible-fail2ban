@@ -10,6 +10,21 @@
     - configuration
     - fail2ban
     - fail2ban-install
+  when: ansible_os_family == "Debian"
+
+- name: Install fail2ban and dependencies - RedHat/CentOS
+  block:
+    - name: install fail2ban dependencies
+      yum:
+        name: "{{ fail2ban_dependencies_rh }}"
+    - name: install fail2ban
+      yum:
+        name: "{{ fail2ban_packages_rh }}"
+  tags:
+    - configuration
+    - fail2ban
+    - fail2ban-install
+  when: ansible_os_family == "RedHat"
 
 - name: update configuration file - /etc/fail2ban/fail2ban.local
   template:

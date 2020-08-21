@@ -1,6 +1,6 @@
 # fail2ban
 
-Set up fail2ban in Debian-like systems.
+Set up fail2ban in Debian-like / RH systems.
 
 ## Requirements
 
